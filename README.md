@@ -8,10 +8,9 @@ The tool is intended for research, education, and exploratory
 safety analysis. It does **not** perform real-time monitoring
 or operational air traffic control functions.
 
-<img width="2532" height="847" alt="Screenshot from 2026-01-02 18-48-04-modified (1)" src="https://github.com/user-attachments/assets/5a45e079-3443-4e3a-a0ed-2ad7b26e8e3e" />
+<img width="1848" height="848" alt="Screenshot from 2026-01-02 19-03-32-modified" src="https://github.com/user-attachments/assets/37a2c236-5bd2-4101-8504-a474ff058611" />
 
 ## Method
-
 
 AirCPA performs deterministic conflict analysis using a Closest Point of Approach (CPA) model under simplified kinematic assumptions.
 
