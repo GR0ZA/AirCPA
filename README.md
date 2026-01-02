@@ -1,7 +1,7 @@
 # AirCPA
 
 AirCPA is an offline analysis tool for deterministic air traffic
-conflict detection based on Closest Point of Approach (CPA)
+conflict detection based on [Closest Point of Approach (CPA)](https://skybrary.aero/articles/closest-point-approach-cpa)
 prediction using historic ADS-B state vector data.
 
 The tool is intended for research, education, and exploratory
@@ -9,6 +9,10 @@ safety analysis. It does **not** perform real-time monitoring
 or operational air traffic control functions.
 
 <img width="1848" height="848" alt="Screenshot from 2026-01-02 19-03-32-modified" src="https://github.com/user-attachments/assets/37a2c236-5bd2-4101-8504-a474ff058611" />
+
+
+A public demo of AirCPA is available at  
+👉 **https://aircpa.streamlit.app/**
 
 ## Method
 
