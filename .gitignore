@@ -1,5 +1,6 @@
 .venv
 data/*.csv
+!data/synthetic_opensky_germany.csv
 __pycache__/
 .pytest_cache/
 *.pyc

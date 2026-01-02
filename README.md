@@ -40,11 +40,13 @@ for **one hour (15:00–16:00 UTC) on 2022-06-27**, chosen to provide
 a compact yet sufficiently dense traffic sample for demonstration
 purposes.
 
-The same workflow applies to any other OpenSky CSV state vector
-dataset with the same schema.
+Due to OpenSky data licensing restrictions, raw ADS-B data is
+**not redistributed** via this repository. For local analysis,
+users must download the data themselves and agree to the
+OpenSky Network General Terms of Use & Data License Agreement.
 
-Due to licensing restrictions, raw OpenSky data is **not**
-redistributed via this repository.
+For public demonstrations, AirCPA uses a **synthetic ADS-B dataset** that follows the OpenSky schema but
+does not contain any real aircraft data.
 
 ## Usage
 

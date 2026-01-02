@@ -27,7 +27,7 @@ st.caption(
 
 def main():
     init_session_state()
-    df = load_data("data/states_2022-06-27-15_germany.csv")
+    df = load_data("data/synthetic_opensky_germany.csv")
 
     times = sorted(df["time"].unique())[1:]
 
