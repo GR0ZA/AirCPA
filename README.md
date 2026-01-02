@@ -31,10 +31,6 @@ aircraft intent, flight plans, sensor uncertainty, or
 nonlinear motion. A local Cartesian (flat-earth) approximation
 is used for geometric computations.
 
-AirCPA is intended for offline analysis and exploratory
-safety studies and is not suitable for real-time or
-operational use.
-
 ## Data Source
 
 AirCPA uses ADS-B state vector data from the
