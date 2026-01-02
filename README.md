@@ -8,11 +8,10 @@ The tool is intended for research, education, and exploratory
 safety analysis. It does **not** perform real-time monitoring
 or operational air traffic control functions.
 
-## Demo
-
-Below is an example view of AirCPA showing predicted conflicts and aircraft trajectories for a selected time window.
+<img width="2532" height="847" alt="Screenshot from 2026-01-02 18-48-04-modified (1)" src="https://github.com/user-attachments/assets/5a45e079-3443-4e3a-a0ed-2ad7b26e8e3e" />
 
 ## Method
+
 
 AirCPA performs deterministic conflict analysis using a Closest Point of Approach (CPA) model under simplified kinematic assumptions.
 
@@ -27,9 +26,14 @@ For each snapshot of ADS-B state vectors:
     threshold (e.g. 1000 ft).
 - Horizontal and vertical separation are evaluated independently.
 
-The analysis is fully deterministic and does not rely on
-probabilistic models, intent inference, or trajectory prediction
-beyond constant-velocity extrapolation.
+The analysis is fully deterministic and does not model
+aircraft intent, flight plans, sensor uncertainty, or
+nonlinear motion. A local Cartesian (flat-earth) approximation
+is used for geometric computations.
+
+AirCPA is intended for offline analysis and exploratory
+safety studies and is not suitable for real-time or
+operational use.
 
 ## Data Source
 
@@ -77,16 +81,6 @@ streamlit run app.py
 ```
 
 The application will open in your browser.
-
-## Limitations
-
-AirCPA is intentionally simplified and subject to the following limitations:
-
-- Offline analysis only (no real-time operation)
-- Constant-velocity, linear motion assumption
-- No aircraft intent or flight plan modeling
-- No uncertainty or sensor error modeling
-- Flat-earth / local Cartesian approximation
 
 ## License
 
